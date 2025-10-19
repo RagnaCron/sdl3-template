@@ -1,7 +1,6 @@
-#add_subdirectory(sdl)
-#add_subdirectory(sdl_mixer)
-#add_subdirectory(sdl_image)
-#add_subdirectory(glm)
-#add_subdirectory(tinyxml2)
-#
-#set(GLM_BUILD_TEST OFF)
+add_subdirectory(sdl)
+add_subdirectory(sdl_mixer)
+add_subdirectory(sdl_image)
+add_subdirectory(sdl_ttf)
+add_subdirectory(glm)
+add_subdirectory(tinyxml2)

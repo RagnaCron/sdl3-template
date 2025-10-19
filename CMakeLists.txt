@@ -9,5 +9,8 @@ file(COPY ${CMAKE_SOURCE_DIR}/assets
 set(CMAKE_C_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_subdirectory(vendors)
+#set(SDLTTF_VENDORED ON)
+#set(GLM_BUILD_TEST OFF)
+
+#add_subdirectory(vendors)
 add_subdirectory(src)
